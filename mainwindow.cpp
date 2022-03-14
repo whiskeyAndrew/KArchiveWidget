@@ -1,8 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include <KCompressionDevice>
-#include <KZip>
+#include <KArchive/kcompressiondevice.h>
+#include <KArchive/kzip.h>
+
 #include <QFile>
 #include <QDebug>
 #include <QFileInfo>
